@@ -40,8 +40,8 @@
     opacity: 90%;
 }
 .words{
-    font-family: 'Finger Paint', cursive;
-    font-weight: 900;
+    font-family: 'Rock Salt', cursive;
+    font-weight: 500;
 
 }
 
@@ -129,5 +129,5 @@ a:hover{
 }
 input:focus{
     color: rgb(48, 255, 6);
-    border: 1px solid rgb(205, 6, 255);
+    border: 2px solid rgb(205, 6, 255);
 }
