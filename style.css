@@ -1,133 +1,122 @@
-
 /* all */
-*{
-    font-family: 'Red Hat Mono', monospace;
-    color: aliceblue;
-   background-color: rgb(8, 8, 8);
-   box-sizing: border-box;
-    
+* {
+  font-family: "Red Hat Mono", monospace;
+  color: aliceblue;
+  background-color: rgb(8, 8, 8);
+  box-sizing: border-box;
 }
 *:focus {
-    outline: none;
+  outline: none;
 }
-.page{
-    min-width: 750px;
-    min-height: 90vh;
+.page {
+  min-width: 750px;
+  min-height: 90vh;
 }
 /* left side of page background/logo */
-.background{
-    float: left;
-    width: 40vw;
-    height:100vh;
-    background-position: bottom;
-    background-size: cover;
-    min-width: 415px;
+.background {
+  float: left;
+  width: 40vw;
+  height: 100vh;
+  background-position: bottom;
+  background-size: cover;
+  min-width: 415px;
 }
-.image{
-    height: 10vh;
-    opacity:70%;
+.image {
+  height: 10vh;
+  opacity: 70%;
 }
-.logo{
-    display: flex;
-    height: auto;
-    background-color: rgba(0, 0, 0, 0.7);
-    position: relative;
-    top: 20vh;
-    gap: 1vw;
-    padding: 15px 0;
-    justify-content: center;
-    align-items: center;
-    opacity: 90%;
+.logo {
+  display: flex;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: relative;
+  top: 20vh;
+  gap: 1vw;
+  padding: 15px 0;
+  justify-content: center;
+  align-items: center;
+  opacity: 90%;
 }
-.words{
-    font-family: 'Rock Salt', cursive;
-    font-weight: 500;
-
+.words {
+  font-family: "Rock Salt", cursive;
+  font-weight: 500;
 }
 
 /* overall container for page content */
-.flex-container{
-    display:flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
-    background: rgb(236, 236, 236);
-    min-width: 40vw;
-    min-height: 100vh;
-    
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  background: rgb(236, 236, 236);
+  min-width: 40vw;
+  min-height: 100vh;
 }
-.header{
-    width: 100%;
-    font-size: 1.5em;
-    padding-left: 2em;
-    display:flex;
-    align-items: center;
-    flex-grow: .75;
-
-
+.header {
+  width: 100%;
+  font-size: 1.5em;
+  padding-left: 2em;
+  display: flex;
+  align-items: center;
+  flex-grow: 0.75;
 }
 
-.signup{
-    position: relative;
-    padding-left: 2em;
-    width: 100%;
-    box-shadow: 1px 1px 1px 1px rgb(51, 51, 51);
+.signup {
+  position: relative;
+  padding-left: 2em;
+  width: 100%;
+  box-shadow: 1px 1px 1px 1px rgb(51, 51, 51);
 }
 
-
-form{
-    width: 100%;
+form {
+  width: 100%;
 }
 
-section{
-    display:grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(2,1fr);
-    grid-gap: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
-input{
-    display:flex;
-    flex-flow: column wrap;
-    width: 90%;
-    border-radius: 3px;
-    
+input {
+  display: flex;
+  flex-flow: column wrap;
+  width: 90%;
+  border-radius: 3px;
 }
-.input{
-    font-size: .7rem;
-    opacity: 50%;
+.input {
+  font-size: 0.7rem;
+  opacity: 50%;
 }
-.foot{
-    padding-left: 2em;
-    padding-top: 4em;
-    /* border: 1px solid green; */
-    width: 100%;
-    flex-grow: 1;
-    flex-shrink: 0;
-    
+.foot {
+  padding-left: 2em;
+  padding-top: 4em;
+  /* border: 1px solid green; */
+  width: 100%;
+  flex-grow: 1;
+  flex-shrink: 0;
 }
-footer{
-    padding-top: 1.5em;
-    font-size: large;
+footer {
+  padding-top: 1.5em;
+  font-size: large;
 }
 
-button{
-    border-radius: 3px;
-    font-size: 1.5em;
-    color: rgb(48, 255, 6);
+button {
+  border-radius: 3px;
+  font-size: 1.5em;
+  color: rgb(48, 255, 6);
 }
 
-button:hover{
-    background-color: rgb(112, 8, 138);
-    border-color: rgb(48, 255, 6);
+button:hover {
+  background-color: rgb(112, 8, 138);
+  border-color: rgb(48, 255, 6);
 }
-a:hover{
-    color: rgb(42, 248, 15);
-    
+a:hover {
+  color: rgb(42, 248, 15);
 }
-input:focus{
-    color: rgb(48, 255, 6);
-    border: 2px solid rgb(205, 6, 255);
+input:focus {
+  color: rgb(48, 255, 6);
+  border: 2px solid rgb(205, 6, 255);
 }
